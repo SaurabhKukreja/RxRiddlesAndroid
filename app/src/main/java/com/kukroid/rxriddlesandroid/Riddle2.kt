@@ -9,6 +9,6 @@ object Riddle2 {
    * Use case: You want to transform the data.
    */
   fun solve(source: Observable<Int>): Observable<Int> {
-    return source.map { it -> it + 1 }
+     return source.map { it -> it + 1 }
   }
 }
